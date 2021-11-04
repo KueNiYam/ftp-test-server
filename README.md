@@ -15,5 +15,8 @@
 # 실행
 
 ```
-python -m pyftpdlib -i localhost -d .
+python server.py {port} 
+
+# default port num: 9022
+# 예시) python server.py 9023
 ```
